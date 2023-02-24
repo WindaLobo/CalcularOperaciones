@@ -16,6 +16,10 @@ public class Metodos {
      */
     private static final String Division = "/";
     /**
+     * Creo un atributo privado static final de Raiz  = "%".
+     */
+    private static final String Raiz= "raiz";
+    /**
      * Creo un atributo privado static  de total en donde guardar los resultados .
      */
     private static Float total = null;
@@ -69,6 +73,11 @@ public class Metodos {
                 }
                 total = numero1 / numero2;
                 break;
+            case Raiz:
+                total = (float)Math.pow(numero1,(1/numero2));
+                break;
+
+
 
         }
         return total;
