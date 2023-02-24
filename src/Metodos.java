@@ -78,7 +78,7 @@ public class Metodos {
                 total = numero1 / numero2;
                 break;
             case Raiz:
-                total = (float) Math.pow(numero1, (1 / numero2));
+                total = (float) Math.pow(numero1, (1/ numero2));
                 break;
 
 
