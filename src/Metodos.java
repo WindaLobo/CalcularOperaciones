@@ -33,7 +33,7 @@ public class Metodos {
     public static void realizarOperacionBasicas() {
 
         try {
-            String operacion = LibreriaEntradSalida.entradaString("Que operacion quieres hacer " + "( \"+\" = Suma , \"-\" = Resta , \"*\" " + "= Multiplicacion , \"/\" = Division ,  \"%\" = RaizCubico ", LibreriaEntradSalida.CONSOLA);
+            String operacion = LibreriaEntradSalida.entradaString("Que operacion quieres hacer " + "( \"+\" = Suma , \"-\" = Resta , \"*\" " + "= Multiplicacion , \"/\" = Division ,  \"%\" = Raiz ", LibreriaEntradSalida.CONSOLA);
             validarOperacion(operacion);
             float a = LibreriaEntradSalida.recibefloat("Introduce un numero", LibreriaEntradSalida.CONSOLA);
             float b = LibreriaEntradSalida.recibefloat("Introduce un numero", LibreriaEntradSalida.CONSOLA);

@@ -11,7 +11,7 @@
 - Luego pido a y b, realizó un try catch para tener el control de la división.
 - En el método private de la operaciones básicas recibe 3 parámetros numero1 que recibe un numero float,numero2 recibe
   un numero float y operación que recibe
-  un string que tendrá varias opciones,suma,resta,multiplicacion y division.
+  un string que tendrá varias opciones,suma,resta,multiplicacion , division y raiz .
 - Dentro del método, operaciones basicas controlo posible división entre cero y otros errores mediante en un lanzamiento
   de una Exception.
 - Genero un método privado "validarOperacion(String operacion)" que valida la operacion instroducida por el usuario.
@@ -20,7 +20,7 @@
 public class Metodos {
     public void realizarOperacionBasicas() {
         try {
-            String operacion = LibreriaEntradSalida.entradaString("Que operacion quieres hacer " + "( \"+\" = Suma , \"-\" = Resta , \"*\" " + "= Multiplicacion , \"/\" = Division",LibreriaEntradSalida.SALIDA_CONSOLA);
+            String operacion = LibreriaEntradSalida.entradaString("Que operacion quieres hacer " + "( \"+\" = Suma , \"-\" = Resta , \"*\" " + "= Multiplicacion , \"/\" = Division \"%\" = Raiz" ,LibreriaEntradSalida.SALIDA_CONSOLA);
             validarOperacion(operacion);
             float a = LibreriaEntradSalida.recibefloat("Introduce un numero",LibreriaEntradSalida.SALIDA_CONSOLA);
             float b = LibreriaEntradSalida.recibefloat("Introduce un numero",LibreriaEntradSalida.SALIDA_CONSOLA);
