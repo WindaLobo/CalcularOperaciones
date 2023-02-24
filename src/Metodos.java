@@ -19,10 +19,7 @@ public class Metodos {
      * Creo un atributo privado static final de Raiz = "%".
      */
     private static final String Raiz = "%";
-    /**
-     * Creo un atributo privado static final de RaizCubico= "%".
-     */
-    private static final String RaizCubico = "%";
+
     /**
      * Creo un atributo privado static  de total en donde guardar los resultados .
      */
