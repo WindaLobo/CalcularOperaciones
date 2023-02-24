@@ -36,7 +36,7 @@ public class Metodos {
     public static void realizarOperacionBasicas() {
 
         try {
-            String operacion = LibreriaEntradSalida.entradaString("Que operacion quieres hacer " + "( \"+\" = Suma , \"-\" = Resta , \"*\" " + "= Multiplicacion , \"/\" = Division  \"%\" = RaizCubico ", LibreriaEntradSalida.CONSOLA);
+            String operacion = LibreriaEntradSalida.entradaString("Que operacion quieres hacer " + "( \"+\" = Suma , \"-\" = Resta , \"*\" " + "= Multiplicacion , \"/\" = Division ,  \"%\" = RaizCubico ", LibreriaEntradSalida.CONSOLA);
             validarOperacion(operacion);
             float a = LibreriaEntradSalida.recibefloat("Introduce un numero", LibreriaEntradSalida.CONSOLA);
             float b = LibreriaEntradSalida.recibefloat("Introduce un numero", LibreriaEntradSalida.CONSOLA);
@@ -51,7 +51,7 @@ public class Metodos {
     /**
      * Creo un método privado de operacionesBasicas que recibe tres parametros, float numero1, float numero2, String operacion
      *
-     * @param operacion tendra varias opciones, sumar,restar,multiplicar , dividir y raiz .
+     * @param operacion tendra varias opciones, sumar,restar,multiplicar , dividir o raiz .
      * @param operacion de la division realizo un throw  Exception para capturar el error de la division entre 0.
      * @return un total.
      * @throws Exception
